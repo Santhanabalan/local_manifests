@@ -2,8 +2,8 @@
 <manifest>
 
     <!-- Device Tree -->
-    <project name="Santhanabalan/device_xiaomi_vili" path="device/xiaomi/vili" remote="github" revision="pe" />
-    <project name="Santhanabalan/device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" remote="github" revision="pe" />
+    <project name="Santhanabalan/device_xiaomi_vili" path="device/xiaomi/vili" remote="github" revision="colt" />
+    <project name="Santhanabalan/device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" remote="github" revision="colt" />
 
     <!-- Vendor Tree -->
     <project name="ChampionsGod/vendor_xiaomi_vili" path="vendor/xiaomi/vili" remote="github" revision="13" />
