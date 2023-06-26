@@ -2,11 +2,11 @@
 <manifest>
 
     <!-- Device Tree -->
-    <project name="Santhanabalan/device_xiaomi_vili" path="device/xiaomi/vili" remote="github" revision="colt" />
-    <project name="Santhanabalan/device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" remote="github" revision="colt" />
+    <project name="Santhanabalan/android_device_xiaomi_vili" path="device/xiaomi/vili" remote="github" revision="colt" />
+    <project name="Santhanabalan/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" remote="github" revision="colt" />
 
     <!-- Vendor Tree -->
-    <project name="ChampionsGod/vendor_xiaomi_vili" path="vendor/xiaomi/vili" remote="github" revision="13" />
+    <project name="Santhanabalan/vendor_xiaomi_vili" path="vendor/xiaomi/vili" remote="github" revision="13" />
     <project name="ChampionsGod/vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" remote="github" revision="thirteen-pixelos" />
     
     <!-- Firmware -->
@@ -18,10 +18,10 @@
     <project name="Santhanabalan/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" remote="github" revision="Bankai" />
 
     <!-- TUF -->
-    <project name="ChampionsGod/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350-tuf" remote="github" revision="TUF" />
+    <project name="Santhanabalan/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350-tuf" remote="github" revision="TUF" />
 
     <!-- ReBorn-Stable -->
-    <project name="ZenkaBestia/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350-rb" remote="github" revision="ReBorn-Stable" />
+    <project name="Santhanabalan/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350-rb" remote="github" revision="ReBorn" />
     
     <!-- Hardware -->
     <project name="Xiaomi-SM8350-Development/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
