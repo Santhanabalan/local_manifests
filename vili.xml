@@ -21,7 +21,7 @@
     <project name="Santhanabalan/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350-tuf" remote="github" revision="TUF" />
 
     <!-- ReBorn-Stable -->
-    <project name="Santhanabalan/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350-rb" remote="github" revision="ReBorn" />
+    <project name="Santhanabalan/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350-rb" remote="github" revision="Reborn" />
     
     <!-- Hardware -->
     <project name="Xiaomi-SM8350-Development/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
