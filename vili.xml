@@ -13,7 +13,7 @@
     <project name="Santhanabalan/vendor_xiaomi_vili-firmware" path="vendor/xiaomi/vili-firmware" remote="gitlab" revision="13.0" />
 
     <!-- Leica Camera -->
-    <project name="Santhanabalan/vendor_xiaomi_vili-miuicamera" path="vendor/xiaomi/vili-miuicamera" remote="gitlab" revision="thirteen-leica" />
+    <project name="Santhanabalan/vendor_xiaomi_vili-miuicamera" path="vendor/xiaomi/vili-miuicamera" remote="gitlab" revision="aosp-13" />
 
     <!-- Kernel -->
 
