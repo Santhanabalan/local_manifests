@@ -2,15 +2,13 @@
 <manifest>
 
     <!-- Device Tree -->
-    <project name="Santhanabalan/android_device_xiaomi_vili" path="device/xiaomi/vili" remote="github" revision="pe+" />
-    <project name="Santhanabalan/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" remote="github" revision="pe+" />
+    <project name="Santhanabalan/android_device_xiaomi_vili" path="device/xiaomi/vili" remote="github" revision="wip" />
 
     <!-- Vendor Tree -->
-    <project name="Santhanabalan/android_vendor_xiaomi_vili" path="vendor/xiaomi/vili" remote="github" revision="13.0" />
-    <project name="Santhanabalan/android_vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" remote="github" revision="13.0" />
+    <project name="Santhanabalan/android_vendor_xiaomi_vili" path="vendor/xiaomi/vili" remote="github" revision="wip" />
     
     <!-- Firmware -->
-    <project name="Santhanabalan/vendor_xiaomi_vili-firmware" path="vendor/xiaomi/vili-firmware" remote="gitlab" revision="13.0" />
+    <project name="blazerpaul15/vendor_xiaomi_vili-firmware" path="vendor/xiaomi/vili-firmware" remote="gitlab" revision="eea" />
 
     <!-- Leica Camera -->
     <project name="Santhanabalan/vendor_xiaomi_vili-miuicamera" path="vendor/xiaomi/vili-miuicamera" remote="gitlab" revision="aosp-13" />
@@ -18,7 +16,7 @@
     <!-- Kernel -->
 
     <!-- Bankai -->
-    <project name="Santhanabalan/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" remote="github" revision="Bankai" sync-s="true" />
+    <project name="Santhanabalan/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/vili" remote="github" revision="Bankai-OLD" sync-s="true" />
     
     <!-- Hardware -->
     <project name="Santhanabalan/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="pe+" />
