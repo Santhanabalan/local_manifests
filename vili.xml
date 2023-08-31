@@ -15,10 +15,10 @@
 
     <!-- Kernel -->
 
-    <!-- Bankai -->
-    <project name="Santhanabalan/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/vili" remote="github" revision="Bankai-OLD" sync-s="true" />
+    <!-- Blaze -->
+    <project name="Santhanabalan/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" remote="github" revision="Blaze" />
     
     <!-- Hardware -->
-    <project name="Santhanabalan/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="pe+" />
+    <project name="blazerpaul15/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="evo" />
 
 </manifest>
