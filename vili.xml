@@ -2,26 +2,24 @@
 <manifest>
 
     <!-- Device Tree -->
-    <project name="Santhanabalan/android_device_xiaomi_vili" path="device/xiaomi/vili" remote="github" revision="pe+" />
+    <project name="Santhanabalan/android_device_xiaomi_vili" path="device/xiaomi/vili" remote="github" revision="pe-13+" />
+    
+    <!-- Common Device Tree -->
+    <project name="Santhanabalan/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" remote="github" revision="pe-13+" />
 
     <!-- Vendor Tree -->
-    <project name="Santhanabalan/android_vendor_xiaomi_vili" path="vendor/xiaomi/vili" remote="github" revision="13.0" />
+    <project name="Santhanabalan/android_vendor_xiaomi_vili" path="vendor/xiaomi/vili" remote="github" revision="pe-13+" />
+    
+    <!-- Common Vendor Tree -->
+    <project name="Santhanabalan/android_vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" remote="github" revision="pe-13+" />
     
     <!-- Firmware -->
     <project name="Santhanabalan/vendor_xiaomi_vili-firmware" path="vendor/xiaomi/vili-firmware" remote="gitlab" revision="13.0" />
 
     <!-- Leica Camera -->
-    <project name="Santhanabalan/vili-miuicamera" path="vendor/xiaomi/vili-miuicamera" remote="gitlab" revision="thirteen-leica" />
-
-    <!-- Kernel -->
+    <project name="Santhanabalan/vendor_xiaomi_vili-miuicamera" path="vendor/xiaomi/vili-miuicamera" remote="gitlab" revision="leica" />
 
     <!-- Bankai -->
-    <project name="Santhanabalan/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" remote="github" revision="Bankai" sync-s="true" />
+    <project name="Santhanabalan/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" remote="github" revision="lineage-21" sync-s="true" />
     
-    <!-- Blaze -->
-    <project name="Santhanabalan/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350-bz" remote="github" revision="Blaze" sync-s="true" />
-
-    <!-- Hardware -->
-    <project name="Santhanabalan/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="pe+" />
-
 </manifest>
